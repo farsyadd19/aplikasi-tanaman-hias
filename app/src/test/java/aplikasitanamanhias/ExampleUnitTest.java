@@ -1,4 +1,4 @@
-package com.azhar.tanamanhias;
+package aplikasitanamanhias;
 
 import org.junit.Test;
 

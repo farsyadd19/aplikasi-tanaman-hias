@@ -1,4 +1,4 @@
-package com.azhar.tanamanhias.adapter;
+package com.kelompok1.aplikasitanamanhias.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,20 +12,15 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.azhar.tanamanhias.R;
-import com.azhar.tanamanhias.activities.DetailActivity;
-import com.azhar.tanamanhias.model.ModelMain;
+import com.kelompok1.tanamanhias.R;
+import com.kelompok1.aplikasitanamanhias.activities.DetailActivity;
+import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Azhar Rivaldi on 31-05-2023
- * Youtube Channel : https://bit.ly/2PJMowZ
- * Github : https://github.com/AzharRivaldi
- * Twitter : https://twitter.com/azharrvldi_
- * Instagram : https://www.instagram.com/azhardvls_
- * Linkedin : https://www.linkedin.com/in/azhar-rivaldi
+ * Created by Kelompok 1 on 2023
  */
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder> implements Filterable {

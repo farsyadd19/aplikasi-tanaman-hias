@@ -1,4 +1,4 @@
-package com.azhar.tanamanhias.activities;
+package com.kelompok1.aplikasitanamanhias.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,9 +15,9 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.SearchView;
 import android.widget.Toast;
 
-import com.azhar.tanamanhias.R;
-import com.azhar.tanamanhias.adapter.MainAdapter;
-import com.azhar.tanamanhias.model.ModelMain;
+import com.kelompok1.tanamanhias.R;
+import com.kelompok1.aplikasitanamanhias.adapter.MainAdapter;
+import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 
 import org.json.JSONArray;
 import org.json.JSONException;

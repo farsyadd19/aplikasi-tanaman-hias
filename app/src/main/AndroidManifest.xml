@@ -14,15 +14,18 @@
         android:theme="@style/Theme.TanamanHias"
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
-        <activity android:name=".activities.DetailActivity" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelompok1.aplikasitanamanhias.activities.DetailActivity"
+            android:exported="true">
         </activity>
     </application>
 

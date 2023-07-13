@@ -1,4 +1,4 @@
-package com.azhar.tanamanhias.activities;
+package com.kelompok1.aplikasitanamanhias.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -14,8 +14,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.azhar.tanamanhias.R;
-import com.azhar.tanamanhias.model.ModelMain;
+import com.kelompok1.tanamanhias.R;
+import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 import com.bumptech.glide.Glide;
 
 public class DetailActivity extends AppCompatActivity {

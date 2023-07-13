@@ -1,14 +1,9 @@
-package com.azhar.tanamanhias.model;
+package com.kelompok1.aplikasitanamanhias.model;
 
 import java.io.Serializable;
 
 /**
- * Created by Azhar Rivaldi on 31-05-2023
- * Youtube Channel : https://bit.ly/2PJMowZ
- * Github : https://github.com/AzharRivaldi
- * Twitter : https://twitter.com/azharrvldi_
- * Instagram : https://www.instagram.com/azhardvls_
- * Linkedin : https://www.linkedin.com/in/azhar-rivaldi
+ * Created by Kelompok 1 on 2023
  */
 
 public class ModelMain implements Serializable {
