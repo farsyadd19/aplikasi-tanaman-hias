@@ -5,8 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kelompok1.aplikasitanamanhias.activities.SplashScreen"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KELOMPOK 1"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="250dp"
+        android:textSize="20dp"/>
 
     <ImageView
         android:id="@+id/image"
@@ -15,13 +24,14 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="@mipmap/ic_launcher"/>
+
     <ProgressBar
         android:id="@+id/loading"
         android:layout_below="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_centerHorizontal="true"/>
+
     <TextView
         android:layout_marginBottom="16dp"
         android:layout_alignParentBottom="true"
