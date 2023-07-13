@@ -16,7 +16,7 @@
         tools:targetApi="TIRAMISU">
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBunga"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriActivity"
             android:exported="false" />
