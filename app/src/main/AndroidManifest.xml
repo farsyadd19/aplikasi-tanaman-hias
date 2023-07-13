@@ -15,6 +15,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
         <activity
+            android:name=".Kategori"
+            android:exported="false" />
+        <activity
             android:name=".KategoriActivity"
             android:exported="false" />
         <activity
@@ -28,10 +31,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".DetailActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
