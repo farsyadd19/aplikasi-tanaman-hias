@@ -15,21 +15,23 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
         <activity
-            android:name="com.kelompok1.aplikasitanamanhias.activities.SplashScreen"
+            android:name=".KategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kelompok1.aplikasitanamanhias.activities.MainActivity"
-            android:exported="true">
-        </activity>
+            android:name=".MainActivity"
+            android:exported="true"></activity>
         <activity
-            android:name="com.kelompok1.aplikasitanamanhias.activities.DetailActivity"
-            android:exported="true">
-        </activity>
+            android:name=".DetailActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
