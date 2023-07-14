@@ -14,9 +14,14 @@
         android:theme="@style/Theme.TanamanHias"
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
-        <activity android:name=".activities.DetailActivity" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".Kategori"
+            android:exported="false" />
+        <activity
+            android:name=".KategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +29,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

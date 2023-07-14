@@ -19,4 +19,13 @@
         <item name="android:textColorHint">@android:color/black</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="Theme.TanamanHias.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TanamanHias.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TanamanHias.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
