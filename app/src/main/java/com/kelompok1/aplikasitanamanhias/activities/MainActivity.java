@@ -29,6 +29,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.realm.Realm;
+
 public class MainActivity extends AppCompatActivity {
 
     List<ModelMain> modelMain = new ArrayList<>();
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Realm.init(this);
 
         //set transparent statusbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
