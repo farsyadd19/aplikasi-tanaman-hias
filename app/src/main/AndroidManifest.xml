@@ -15,13 +15,13 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
         <activity
-            android:name=".Kategori"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBunga"
+            android:exported="true" />
+        <activity
+            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriActivity"
             android:exported="false" />
         <activity
-            android:name=".KategoriActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,10 +30,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".DetailActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.DetailActivity"
             android:exported="true" />
     </application>
 

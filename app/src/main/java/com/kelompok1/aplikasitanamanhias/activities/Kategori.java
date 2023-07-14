@@ -3,6 +3,7 @@ package com.kelompok1.aplikasitanamanhias.activities;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import com.kelompok1.tanamanhias.R;
 
 public class Kategori extends AppCompatActivity {
 

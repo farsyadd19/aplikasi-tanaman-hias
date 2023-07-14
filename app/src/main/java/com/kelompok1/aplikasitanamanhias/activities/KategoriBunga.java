@@ -15,6 +15,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.kelompok1.aplikasitanamanhias.adapter.BungaAdapter;
 import com.kelompok1.tanamanhias.R;
 import com.kelompok1.aplikasitanamanhias.adapter.MainAdapter;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
@@ -29,21 +30,17 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.realm.Realm;
-
-public class MainActivity extends AppCompatActivity {
+public class KategoriBunga extends AppCompatActivity {
 
     List<ModelMain> modelMain = new ArrayList<>();
-    MainAdapter mainAdapter;
-    RecyclerView rvListTanaman;
+    BungaAdapter bungaAdapter;
+    RecyclerView rvListBunga;
     SearchView searchTanaman;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Realm.init(this);
+        setContentView(R.layout.activity_kategori_bunga);
 
         //set transparent statusbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -56,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
 
-        rvListTanaman = findViewById(R.id.rvListTanaman);
+        rvListBunga = findViewById(R.id.rvListBunga);
         searchTanaman = findViewById(R.id.searchTanaman);
 
         //transparent background searchview
@@ -75,13 +72,13 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                mainAdapter.getFilter().filter(newText);
+                bungaAdapter.getFilter().filter(newText);
                 return true;
             }
         });
 
-        rvListTanaman.setLayoutManager(new LinearLayoutManager(this));
-        rvListTanaman.setHasFixedSize(true);
+        rvListBunga.setLayoutManager(new LinearLayoutManager(this));
+        rvListBunga.setHasFixedSize(true);
 
         //get data json
         getNamaTanaman();
@@ -90,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getNamaTanaman() {
         try {
-            InputStream stream = getAssets().open("tanaman_hias.json");
+            InputStream stream = getAssets().open("tanaman_hiasbunga.json");
             int size = stream.available();
             byte[] buffer = new byte[size];
             stream.read(buffer);
@@ -107,13 +104,13 @@ public class MainActivity extends AppCompatActivity {
                     dataApi.setImage(object.getString("image_url"));
                     modelMain.add(dataApi);
                 }
-                mainAdapter = new MainAdapter(this, modelMain);
-                rvListTanaman.setAdapter(mainAdapter);
+                bungaAdapter = new BungaAdapter(this, modelMain);
+                rvListBunga.setAdapter(bungaAdapter);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         } catch (IOException ignored) {
-            Toast.makeText(MainActivity.this, "Ups, ada yang tidak beres. " +
+            Toast.makeText(KategoriBunga.this, "Ups, ada yang tidak beres. " +
                     "Coba ulangi beberapa saat lagi.", Toast.LENGTH_SHORT).show();
         }
     }
