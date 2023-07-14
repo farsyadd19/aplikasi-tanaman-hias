@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logohome"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TanamanHias"
@@ -18,7 +18,7 @@
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBunga"
             android:exported="true" />
         <activity
-            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.Kategori"
             android:exported="false" />
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.SplashScreen"
