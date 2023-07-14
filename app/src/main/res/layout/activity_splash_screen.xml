@@ -23,13 +23,14 @@
         android:layout_height="150sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:background="@mipmap/ic_launcher"/>
+        android:background="@drawable/logohome"/>
 
     <ProgressBar
         android:id="@+id/loading"
         android:layout_below="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
 
     <TextView
