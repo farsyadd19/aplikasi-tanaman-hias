@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/hijau"
+    android:layout_gravity="center_vertical"
     tools:context="com.kelompok1.aplikasitanamanhias.activities.Kategori">
 
     <ImageView
