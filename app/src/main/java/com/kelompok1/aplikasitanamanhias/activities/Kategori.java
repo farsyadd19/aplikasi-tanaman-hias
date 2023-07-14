@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.kelompok1.tanamanhias.R;
 
-public class KategoriActivity extends AppCompatActivity {
+public class Kategori extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
