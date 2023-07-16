@@ -34,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.939" />
 
     <Button
         android:id="@+id/btndaun"
@@ -48,10 +48,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btnbuah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/btnbuah"
@@ -62,44 +62,12 @@
         android:text="BUAH"
         android:textColor="#ffff"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnakar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.246"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/btnakar"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/custom1"
-        android:text="AKAR"
-        android:textColor="#ffff"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnbatang"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/btnbatang"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/custom1"
-        android:text="BATANG"
-        android:textColor="#ffff"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.801" />
 
     <ImageView
         android:id="@+id/imageView4"

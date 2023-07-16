@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Kategori extends AppCompatActivity {
 
     private ImageView imageView;
-    private Button bunga, daun, buah, akar, batang;
+    private Button bunga, daun, buah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,7 @@ public class Kategori extends AppCompatActivity {
         bunga = findViewById(R.id.btnbunga);
         daun = findViewById(R.id.btndaun);
         buah = findViewById(R.id.btnbuah);
-        akar = findViewById(R.id.btnakar);
-        batang = findViewById(R.id.btnbatang);
+
 
         // Tambahkan listener untuk setiap tombol (jika diperlukan)
         bunga.setOnClickListener(new View.OnClickListener() {
@@ -48,22 +47,6 @@ public class Kategori extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Aksi ketika tombol BUAH ditekan
-                // Gantikan dengan kode yang sesuai sesuai kebutuhan aplikasi Anda
-            }
-        });
-
-        akar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Aksi ketika tombol AKAR ditekan
-                // Gantikan dengan kode yang sesuai sesuai kebutuhan aplikasi Anda
-            }
-        });
-
-        batang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Aksi ketika tombol BATANG ditekan
                 // Gantikan dengan kode yang sesuai sesuai kebutuhan aplikasi Anda
             }
         });
