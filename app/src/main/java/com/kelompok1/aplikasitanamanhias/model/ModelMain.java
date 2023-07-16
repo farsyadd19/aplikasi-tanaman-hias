@@ -11,6 +11,7 @@ public class ModelMain implements Serializable {
     String nama;
     String image;
     String deskripsi;
+    String budidaya;
 
     public String getNama() {
         return nama;
@@ -35,5 +36,14 @@ public class ModelMain implements Serializable {
     public void setDeskripsi(String deskripsi) {
         this.deskripsi = deskripsi;
     }
+
+    public String getBudidaya() {
+        return budidaya;
+    }
+
+    public void setBudidaya(String budidaya) {
+        this.budidaya = budidaya;
+    }
+
 
 }

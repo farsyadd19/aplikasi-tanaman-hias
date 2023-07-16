@@ -10,12 +10,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KELOMPOK 1"
-        android:textStyle="bold"
-        android:fontFamily="cursive"
         android:layout_centerHorizontal="true"
-        android:layout_margin="250dp"
-        android:textSize="20dp"/>
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="cursive"
+        android:text="KELOMPOK 1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/image"
