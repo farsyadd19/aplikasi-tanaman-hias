@@ -101,6 +101,7 @@ public class KategoriBunga extends AppCompatActivity {
                     ModelMain dataApi = new ModelMain();
                     dataApi.setNama(object.getString("nama"));
                     dataApi.setDeskripsi(object.getString("deskripsi"));
+                    dataApi.setBudidaya(object.getString("budidaya"));
                     dataApi.setImage(object.getString("image_url"));
                     modelMain.add(dataApi);
                 }

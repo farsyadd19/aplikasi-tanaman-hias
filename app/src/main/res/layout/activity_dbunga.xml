@@ -109,6 +109,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
+
             </LinearLayout>
 
             <LinearLayout
@@ -119,14 +120,31 @@
                 android:layout_marginEnd="20sp"
                 android:orientation="vertical">
 
-                <Button
-
-                    android:layout_width="250dp"
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cara memelihara"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:background="@drawable/button_bunga"/>
+                    android:text="Budidaya"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBudidayaBunga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:orientation="vertical">
             </LinearLayout>
 
         </LinearLayout>

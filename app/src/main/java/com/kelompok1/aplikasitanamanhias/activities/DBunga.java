@@ -21,11 +21,11 @@ import com.kelompok1.tanamanhias.R;
 public class DBunga extends AppCompatActivity {
 
     public static final String DETAIL_BUNGA = "DETAIL_BUNGA";
-    String strNamaBunga, strManfaatBunga;
+    String strNamaBunga, strManfaatBunga, strBudidaya;
     ModelMain modelMain;
     Toolbar toolbar;
     ImageView imageBunga;
-    TextView tvNamaBunga, tvManfaatBunga;
+    TextView tvNamaBunga, tvManfaatBunga, tvBudidaya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +47,7 @@ public class DBunga extends AppCompatActivity {
         imageBunga = findViewById(R.id.imageBunga);
         tvNamaBunga = findViewById(R.id.tvNamaBunga);
         tvManfaatBunga = findViewById(R.id.tvManfaatBunga);
+        tvBudidaya = findViewById(R.id.tvBudidayaBunga);
 
         setSupportActionBar(toolbar);
         assert getSupportActionBar() != null;
@@ -58,6 +59,7 @@ public class DBunga extends AppCompatActivity {
         if (modelMain != null) {
             strNamaBunga = modelMain.getNama();
             strManfaatBunga = modelMain.getDeskripsi();
+            strBudidaya = modelMain.getBudidaya();
 
             Glide.with(this)
                     .load(modelMain.getImage())
@@ -65,6 +67,7 @@ public class DBunga extends AppCompatActivity {
 
             tvNamaBunga.setText(strNamaBunga);
             tvManfaatBunga.setText(strManfaatBunga);
+            tvBudidaya.setText(strBudidaya);
         }
 
     }
