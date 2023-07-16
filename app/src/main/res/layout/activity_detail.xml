@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@dra">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -30,6 +30,7 @@
         android:layout_marginStart="20sp"
         android:layout_marginTop="35dp"
         android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/white"
         android:paddingStart="10dp"
         app:navigationIcon="@drawable/ic_back" />
 
@@ -53,7 +54,7 @@
                     android:layout_height="5dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="12dp"
-                    android:background="@drawable/bg_shape"
+                    android:background="@drawable/button_bunga"
                     android:backgroundTint="@color/colorPrimaryDark" />
 
             </RelativeLayout>
@@ -108,6 +109,24 @@
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:orientation="vertical">
+
+                <Button
+
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cara memelihara"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bunga"/>
             </LinearLayout>
 
         </LinearLayout>
