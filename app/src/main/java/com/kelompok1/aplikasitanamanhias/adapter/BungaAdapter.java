@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kelompok1.aplikasitanamanhias.activities.DetailActivity;
+import com.kelompok1.aplikasitanamanhias.activities.DBunga;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 import com.kelompok1.tanamanhias.R;
 
@@ -81,8 +81,8 @@ public class BungaAdapter extends RecyclerView.Adapter<BungaAdapter.MainViewHold
 
         //send data to detail activity
         holder.cvListBunga.setOnClickListener(view -> {
-            Intent intent = new Intent(context, DetailActivity.class);
-            intent.putExtra(DetailActivity.DETAIL_TANAMAN, modelMainList.get(position));
+            Intent intent = new Intent(context, DBunga.class);
+            intent.putExtra(DBunga.DETAIL_BUNGA, modelMainList.get(position));
             context.startActivity(intent);
         });
 
