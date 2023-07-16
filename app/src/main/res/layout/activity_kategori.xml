@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/hijau"
+    android:background="@drawable/backgroundhome"
     android:layout_gravity="center_vertical"
     tools:context="com.kelompok1.aplikasitanamanhias.activities.Kategori">
 
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/logohome" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnbunga"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -29,7 +29,7 @@
         android:text="BUNGA"
         android:textColor="#ffff"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btndaun"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btndaun"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -46,7 +46,7 @@
         android:text="DAUN"
         android:textColor="#ffff"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btnbuah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnbuah"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -62,7 +62,7 @@
         android:text="BUAH"
         android:textColor="#ffff"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btnakar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnakar"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -78,7 +78,7 @@
         android:text="AKAR"
         android:textColor="#ffff"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/btnbatang"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.853"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnbatang"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
