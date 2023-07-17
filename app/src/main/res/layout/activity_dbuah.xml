@@ -54,8 +54,8 @@
                     android:layout_height="5dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="12dp"
-                    android:background="@drawable/button_bunga"
-                    android:backgroundTint="@color/colorUy" />
+                    android:background="@drawable/button_buah"
+                    android:backgroundTint="@color/colororanye" />
 
             </RelativeLayout>
 
