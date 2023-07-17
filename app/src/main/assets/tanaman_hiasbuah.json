@@ -1,0 +1,35 @@
+{
+  "daftar_tanaman": [
+    {
+      "nama": "Citrus microcarpa (Jeruk Calamondin)",
+      "image_url": "https://bibitonline.com/wp-content/uploads/Macam-macam-Tanaman-Hias-Bunga-Anggrek.jpg",
+      "deskripsi": "Citrus microcarpa merupakan tanaman hias bunga yang cukup populer di Indonesia. Bunga citrus microcarpa sering dipergunakan sebagai ungkapan rasa cinta, simbol kemewahan dan keindahan selama ratusan tahun. Bunga yang masuk ke dalam suku Orchidaceae ini mempunyai banyak sekali varietas dengan keindahan yang dibawa masing-masing variasinya.",
+      "budidaya": "Citrus microcarpa adalah tanaman epifit yang biasanya tumbuh di pohon atau batang tanaman lainnya. Untuk budidaya citrus microcarpa, pastikan mereka mendapatkan sinar matahari yang cukup, tetapi di tempat yang tidak terlalu terkena sinar langsung. Tanah atau media tanam harus memiliki drainase yang baik dan cukup lembab. Penting juga untuk memberikan pupuk yang sesuai dan menjaga kelembaban udara di sekitar citrus microcarpa."
+    },
+    {
+      "nama": "Solanum muricatum (Pepino)",
+      "image_url": "https://1.bp.blogspot.com/-Mgrx4YbbzJo/YEcsLwy7Q4I/AAAAAAAAFGI/MWxaMve8BIgS2AXb47z-2x3FTsJ5r3-WwCLcBGAsYHQ/s745/koleksi%2Btanaman%2Bhias%2Bbegonia.jpg",
+      "deskripsi": "Solanum muricatum merupakan salah satu tanaman hias bunga yang paling populer di dunia. Bunga solanum muricatum memiliki berbagai warna dan dipercaya melambangkan kasih sayang dan kecantikan. Tanaman solanum muricatum termasuk dalam keluarga Rosaceae dan banyak ditemukan di berbagai negara.",
+      "budidaya": "Solanum muricatum dapat ditanam di kebun atau dalam pot. Pastikan tanah memiliki drainase yang baik dan mendapatkan sinar matahari yang cukup. Perawatan rutin seperti pemangkasan, penyiraman, dan pemupukan akan membantu solanum muricatum tumbuh subur dan menghasilkan bunga yang indah."
+    },
+    {
+      "nama": "Carica papaya (Pepaya)",
+      "image_url": "https://1.bp.blogspot.com/-4w3i2mszG3A/YEcrz3wISBI/AAAAAAAAFGA/VHvxVeBAmocGTgFXEFaqPT_Wi75Cmgl8ACLcBGAsYHQ/s742/koleksi%2Btanaman%2Bhias%2BSansevieria.jpg",
+      "deskripsi": "Carica papaya adalah tanaman hias bunga yang terkenal dengan aroma harum dan berbagai manfaatnya. Tanaman carica papaya memiliki bunga berbentuk malai dengan warna ungu yang menarik. Selain sebagai tanaman hias, carica papaya juga digunakan dalam aromaterapi dan berbagai produk kecantikan.",
+      "budidaya": "Carica papaya tumbuh baik di daerah beriklim mediterania atau iklim yang sejuk. Tanah yang digunakan harus memiliki drainase yang baik dan sedikit alkalis. Penyiraman harus dilakukan dengan hati-hati untuk menjaga kelembaban tanah, tetapi tidak terlalu basah. Pemangkasan juga perlu dilakukan untuk menjaga bentuk tanaman dan merangsang pertumbuhan."
+    },
+    {
+      "nama": "Fragaria spp (Strawberry)",
+      "image_url": "https://1.bp.blogspot.com/-DhNHGuuHlKo/YEcrW5OQLJI/AAAAAAAAFF4/sEnJA5eiCJwQJarZ-qfDkxP5f7nEmHrNACLcBGAsYHQ/s739/koleksi%2Btanaman%2Bhias%2BAglonema.jpg",
+      "deskripsi": "Fragaria spp adalah tanaman hias bunga yang cantik dan elegan. Tanaman fragaria spp memiliki bunga berbentuk lonceng dengan berbagai warna yang menarik. Fragaria spp sering dijadikan pilihan untuk dekorasi dan rangkaian bunga pada berbagai acara spesial.",
+      "budidaya": "Fragaria spp dapat tumbuh dengan baik di tempat yang mendapatkan sinar matahari pagi dan teduh pada siang hari. Tanah atau media tanam harus subur dan memiliki drainase yang baik. Penyiraman harus dilakukan secara teratur untuk menjaga kelembaban tanah. Fragaria spp juga membutuhkan dukungan seperti tali rafia untuk menjaga tangkai bunga agar tetap tegak dan tidak patah."
+    },
+    {
+      "nama": "Hylocereus spp (Naga)",
+      "image_url": "https://akcdn.detik.net.id/community/media/visual/2023/03/14/lihat-tulip-nggak-usah-ke-belanda-china-saja-3_43.jpeg?w=250&q=",
+      "deskripsi": "Hylocereus spp adalah tanaman hias bunga yang terkenal dengan keindahan dan warna-warni yang menarik. Bunga hylocereus spp merupakan simbol keindahan sempurna dan kesempurnaan cinta. Hylocereus spp berasal dari wilayah Timur Tengah dan Asia Tengah.",
+      "budidaya": "Hylocereus spp tumbuh dengan baik di daerah yang memiliki empat musim dengan iklim yang sejuk. Tanah yang digunakan harus subur dan memiliki drainase yang baik. Tanaman hylocereus spp membutuhkan masa dormansi untuk tumbuh dengan baik, sehingga dianjurkan untuk menyimpan umbi hylocereus spp di tempat yang sejuk selama musim panas. Setelah musim dingin berlalu, umbi hylocereus spp dapat ditanam kembali untuk menghasilkan bunga yang indah pada musim semi."
+    }
+  ]
+}
+

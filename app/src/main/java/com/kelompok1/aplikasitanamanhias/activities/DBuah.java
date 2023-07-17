@@ -18,19 +18,19 @@ import com.bumptech.glide.Glide;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 import com.kelompok1.tanamanhias.R;
 
-public class Ddaun extends AppCompatActivity {
+public class DBuah extends AppCompatActivity {
 
-    public static final String DETAIL_DAUN = "DETAIL_DAUN";
-    String strNamaDaun, strManfaatDaun, strBudidaya;
+    public static final String DETAIL_BUAH = "DETAIL_BUAH";
+    String strNamaBuah, strManfaatBuah, strBudidaya;
     ModelMain modelMain;
     Toolbar toolbar;
-    ImageView imageBunga;
-    TextView tvNamaBunga, tvManfaatBunga, tvBudidaya;
+    ImageView imageBuah;
+    TextView tvNamaBuah, tvManfaatBuah, tvBudidaya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ddaun);
+        setContentView(R.layout.activity_dbuah);
 
         //set transparent statusbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -44,10 +44,10 @@ public class Ddaun extends AppCompatActivity {
         }
 
         toolbar = findViewById(R.id.toolbar);
-        imageBunga = findViewById(R.id.imageDaun);
-        tvNamaBunga = findViewById(R.id.tvNamaDaun);
-        tvManfaatBunga = findViewById(R.id.tvManfaatDaun);
-        tvBudidaya = findViewById(R.id.tvBudidayaDaun);
+        imageBuah = findViewById(R.id.imageBuah);
+        tvNamaBuah = findViewById(R.id.tvNamaBuah);
+        tvManfaatBuah = findViewById(R.id.tvManfaatBuah);
+        tvBudidaya = findViewById(R.id.tvBudidayaBuah);
 
         setSupportActionBar(toolbar);
         assert getSupportActionBar() != null;
@@ -55,18 +55,18 @@ public class Ddaun extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         //get data intent
-        modelMain = (ModelMain) getIntent().getSerializableExtra(DETAIL_DAUN);
+        modelMain = (ModelMain) getIntent().getSerializableExtra(DETAIL_BUAH);
         if (modelMain != null) {
-            strNamaDaun = modelMain.getNama();
-            strManfaatDaun = modelMain.getDeskripsi();
+            strNamaBuah = modelMain.getNama();
+            strManfaatBuah = modelMain.getDeskripsi();
             strBudidaya = modelMain.getBudidaya();
 
             Glide.with(this)
                     .load(modelMain.getImage())
-                    .into(imageBunga);
+                    .into(imageBuah);
 
-            tvNamaBunga.setText(strNamaDaun);
-            tvManfaatBunga.setText(strManfaatDaun);
+            tvNamaBuah.setText(strNamaBuah);
+            tvManfaatBuah.setText(strManfaatBuah);
             tvBudidaya.setText(strBudidaya);
         }
 
