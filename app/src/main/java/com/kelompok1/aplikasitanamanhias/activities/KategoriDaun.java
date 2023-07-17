@@ -54,7 +54,7 @@ public class KategoriDaun extends AppCompatActivity {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
 
-        rvListDaun = findViewById(R.id.rvListDaun);
+        rvListDaun= findViewById(R.id.rvListDaun);
         searchTanaman = findViewById(R.id.searchTanaman);
 
         //transparent background searchview

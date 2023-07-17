@@ -24,8 +24,8 @@ public class Ddaun extends AppCompatActivity {
     String strNamaDaun, strManfaatDaun, strBudidaya;
     ModelMain modelMain;
     Toolbar toolbar;
-    ImageView imageBunga;
-    TextView tvNamaBunga, tvManfaatBunga, tvBudidaya;
+    ImageView imageDaun;
+    TextView tvNamaDaun, tvManfaatDaun, tvBudidaya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,9 +44,9 @@ public class Ddaun extends AppCompatActivity {
         }
 
         toolbar = findViewById(R.id.toolbar);
-        imageBunga = findViewById(R.id.imageDaun);
-        tvNamaBunga = findViewById(R.id.tvNamaDaun);
-        tvManfaatBunga = findViewById(R.id.tvManfaatDaun);
+        imageDaun = findViewById(R.id.imageDaun);
+        tvNamaDaun = findViewById(R.id.tvNamaDaun);
+        tvManfaatDaun = findViewById(R.id.tvManfaatDaun);
         tvBudidaya = findViewById(R.id.tvBudidayaDaun);
 
         setSupportActionBar(toolbar);
@@ -63,10 +63,10 @@ public class Ddaun extends AppCompatActivity {
 
             Glide.with(this)
                     .load(modelMain.getImage())
-                    .into(imageBunga);
+                    .into(imageDaun);
 
-            tvNamaBunga.setText(strNamaDaun);
-            tvManfaatBunga.setText(strManfaatDaun);
+            tvNamaDaun.setText(strNamaDaun);
+            tvManfaatDaun.setText(strManfaatDaun);
             tvBudidaya.setText(strBudidaya);
         }
 

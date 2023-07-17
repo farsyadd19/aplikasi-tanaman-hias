@@ -54,7 +54,7 @@
                     android:layout_height="5dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="12dp"
-                    android:background="@drawable/button_bunga"
+                    android:background="@drawable/button_daun"
                     android:backgroundTint="@color/colorcoklat" />
 
             </RelativeLayout>
