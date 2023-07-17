@@ -30,7 +30,7 @@ public class DBuah extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dbunga);
+        setContentView(R.layout.activity_dbuah);
 
         //set transparent statusbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -46,8 +46,8 @@ public class DBuah extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         imageBuah = findViewById(R.id.imageBuah);
         tvNamaBuah = findViewById(R.id.tvNamaBuah);
-        tvManfaatBuah = findViewById(R.id.tvManfaatBunga);
-        tvBudidaya = findViewById(R.id.tvBudidayaBunga);
+        tvManfaatBuah = findViewById(R.id.tvManfaatBuah);
+        tvBudidaya = findViewById(R.id.tvBudidayaBuah);
 
         setSupportActionBar(toolbar);
         assert getSupportActionBar() != null;
