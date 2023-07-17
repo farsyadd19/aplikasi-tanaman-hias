@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorUy"
+    android:background="@color/colorcoklat"
     android:fitsSystemWindows="true">
 
 
     <include
-        android:id="@+id/toolbarbunga"
-        layout="@layout/toolbarbunga" />
+        android:id="@+id/toolbardaun"
+        layout="@layout/toolbardaun" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbarbunga"
+        android:layout_below="@+id/toolbardaun"
         android:layout_margin="20dp"
         app:cardCornerRadius="25dp">
 
@@ -56,7 +56,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="12dp"
                 android:background="@drawable/bg_shape"
-                android:backgroundTint="@color/colorUy" />
+                android:backgroundTint="@color/colorcoklat" />
 
         </RelativeLayout>
 
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
-            android:background="@drawable/bg_wavebunga">
+            android:background="@drawable/bg_wavedaun">
 
             <LinearLayout
                 android:layout_width="match_parent"
