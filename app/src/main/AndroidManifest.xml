@@ -15,6 +15,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
         <activity
+            android:name=".Dbuah"
+            android:exported="false" />
+        <activity
+            android:name=".KategoriBuah"
+            android:exported="false" />
+        <activity
+            android:name=".Ddaun"
+            android:exported="false" />
+        <activity
             android:name=".KategoriDaun"
             android:exported="false" />
         <activity
