@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
-            android:background="@drawable/bg_wavebunga">
+            android:background="@drawable/bg_wavebuah">
 
             <LinearLayout
                 android:layout_width="match_parent"
