@@ -16,6 +16,7 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.kelompok1.aplikasitanamanhias.adapter.BungaAdapter;
+import com.kelompok1.aplikasitanamanhias.adapter.DaunAdapter;
 import com.kelompok1.tanamanhias.R;
 import com.kelompok1.aplikasitanamanhias.adapter.MainAdapter;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
@@ -33,14 +34,14 @@ import java.util.List;
 public class KategoriDaun extends AppCompatActivity {
 
     List<ModelMain> modelMain = new ArrayList<>();
-    BungaAdapter bungaAdapter;
-    RecyclerView rvListBunga;
+    DaunAdapter daunAdapter;
+    RecyclerView rvListDaun;
     SearchView searchTanaman;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kategori_bunga);
+        setContentView(R.layout.activity_kategori_daun);
 
         //set transparent statusbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -53,7 +54,7 @@ public class KategoriDaun extends AppCompatActivity {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
 
-        rvListBunga = findViewById(R.id.rvListBunga);
+        rvListDaun = findViewById(R.id.rvListDaun);
         searchTanaman = findViewById(R.id.searchTanaman);
 
         //transparent background searchview
@@ -72,13 +73,13 @@ public class KategoriDaun extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                bungaAdapter.getFilter().filter(newText);
+                daunAdapter.getFilter().filter(newText);
                 return true;
             }
         });
 
-        rvListBunga.setLayoutManager(new LinearLayoutManager(this));
-        rvListBunga.setHasFixedSize(true);
+        rvListDaun.setLayoutManager(new LinearLayoutManager(this));
+        rvListDaun.setHasFixedSize(true);
 
         //get data json
         getNamaTanaman();
@@ -87,7 +88,7 @@ public class KategoriDaun extends AppCompatActivity {
 
     private void getNamaTanaman() {
         try {
-            InputStream stream = getAssets().open("tanaman_hiasbunga.json");
+            InputStream stream = getAssets().open("tanaman_hiasdaun.json");
             int size = stream.available();
             byte[] buffer = new byte[size];
             stream.read(buffer);
@@ -105,13 +106,13 @@ public class KategoriDaun extends AppCompatActivity {
                     dataApi.setImage(object.getString("image_url"));
                     modelMain.add(dataApi);
                 }
-                bungaAdapter = new BungaAdapter(this, modelMain);
-                rvListBunga.setAdapter(bungaAdapter);
+                daunAdapter = new DaunAdapter(this, modelMain);
+                rvListDaun.setAdapter(daunAdapter);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         } catch (IOException ignored) {
-            Toast.makeText(KategoriBunga.this, "Ups, ada yang tidak beres. " +
+            Toast.makeText(KategoriDaun.this, "Ups, ada yang tidak beres. " +
                     "Coba ulangi beberapa saat lagi.", Toast.LENGTH_SHORT).show();
         }
     }
