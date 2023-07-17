@@ -38,16 +38,16 @@ public class Kategori extends AppCompatActivity {
         daun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Aksi ketika tombol DAUN ditekan
-                // Gantikan dengan kode yang sesuai sesuai kebutuhan aplikasi Anda
+                Intent daun = new Intent(Kategori.this, KategoriDaun.class);
+                startActivity(daun);
             }
         });
 
         buah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Aksi ketika tombol BUAH ditekan
-                // Gantikan dengan kode yang sesuai sesuai kebutuhan aplikasi Anda
+                Intent buah = new Intent(Kategori.this, KategoriBuah.class);
+                startActivity(buah);
             }
         });
     }

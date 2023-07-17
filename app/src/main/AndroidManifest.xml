@@ -25,10 +25,10 @@
             android:exported="false" />
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBuah"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriDaun"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBunga"
             android:exported="true" />

@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.kelompok1.aplikasitanamanhias.activities.DBuah;
 import com.kelompok1.aplikasitanamanhias.activities.DBunga;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 import com.kelompok1.tanamanhias.R;
@@ -69,7 +70,7 @@ public class BuahAdapter extends RecyclerView.Adapter<BuahAdapter.MainViewHolder
 
     @Override
     public MainViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_bunga, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_buah, parent, false);
         return new MainViewHolder(view);
     }
 
@@ -77,12 +78,12 @@ public class BuahAdapter extends RecyclerView.Adapter<BuahAdapter.MainViewHolder
     public void onBindViewHolder(MainViewHolder holder, int position) {
         ModelMain item = modelMainList.get(position);
 
-        holder.tvNamaBunga.setText(item.getNama());
+        holder.tvNamaBuah.setText(item.getNama());
 
         //send data to detail activity
-        holder.cvListBunga.setOnClickListener(view -> {
-            Intent intent = new Intent(context, DBunga.class);
-            intent.putExtra(DBunga.DETAIL_BUNGA, modelMainList.get(position));
+        holder.cvListBuah.setOnClickListener(view -> {
+            Intent intent = new Intent(context, DBuah.class);
+            intent.putExtra(DBuah.DETAIL_BUAH, modelMainList.get(position));
             context.startActivity(intent);
         });
 
@@ -95,13 +96,13 @@ public class BuahAdapter extends RecyclerView.Adapter<BuahAdapter.MainViewHolder
 
     public static class MainViewHolder extends RecyclerView.ViewHolder {
 
-        CardView cvListBunga;
-        TextView tvNamaBunga;
+        CardView cvListBuah;
+        TextView tvNamaBuah;
 
         public MainViewHolder(View itemView) {
             super(itemView);
-            cvListBunga = itemView.findViewById(R.id.cvListBunga);
-            tvNamaBunga = itemView.findViewById(R.id.tvNamaBunga);
+            cvListBuah = itemView.findViewById(R.id.cvListBuah);
+            tvNamaBuah = itemView.findViewById(R.id.tvNamaBuah);
         }
     }
 

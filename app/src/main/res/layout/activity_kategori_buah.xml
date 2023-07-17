@@ -8,14 +8,14 @@
 
 
     <include
-        android:id="@+id/toolbarbunga"
+        android:id="@+id/toolbarbuah"
         layout="@layout/toolbarbuah" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbarbunga"
+        android:layout_below="@+id/toolbarbuah"
         android:layout_margin="20dp"
         app:cardCornerRadius="25dp">
 
