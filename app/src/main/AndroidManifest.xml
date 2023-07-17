@@ -15,31 +15,28 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="TIRAMISU">
         <activity
-            android:name=".DBuah"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.DBuah"
             android:exported="false" />
         <activity
-            android:name=".Dbuah"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.DBunga"
             android:exported="false" />
         <activity
-            android:name=".KategoriBuah"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.Ddaun"
             android:exported="false" />
         <activity
-            android:name=".Ddaun"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBuah"
             android:exported="false" />
         <activity
-            android:name=".KategoriDaun"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriDaun"
             android:exported="false" />
         <activity
-            android:name=".DBunga"
-            android:exported="false" />
-        <activity
-            android:name=".KategoriBunga"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.KategoriBunga"
             android:exported="true" />
         <activity
-            android:name=".Kategori"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.Kategori"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,10 +45,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".DetailActivity"
+            android:name="com.kelompok1.aplikasitanamanhias.activities.DetailActivity"
             android:exported="true" />
     </application>
 
