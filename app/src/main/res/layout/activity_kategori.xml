@@ -73,6 +73,7 @@
         android:layout_width="542dp"
         android:layout_height="850dp"
         android:layout_marginStart="4dp"
+        android:layout_marginTop="104dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/backgroundkategori" />
