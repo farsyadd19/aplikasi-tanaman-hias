@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
 }
-apply plugin: "realm-android"
+
 android {
     namespace 'com.kelompok1.tanamanhias'
     compileSdk 33
@@ -14,6 +14,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    packagingOptions {
+        exclude 'META-INF/native-image/org.mongodb/bson/native-image.properties'
     }
 
     buildTypes {

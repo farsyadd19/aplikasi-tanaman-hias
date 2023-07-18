@@ -66,16 +66,15 @@
         app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.862" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="542dp"
-        android:layout_height="946dp"
+        android:layout_height="850dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="68dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/backgroundkategori" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
