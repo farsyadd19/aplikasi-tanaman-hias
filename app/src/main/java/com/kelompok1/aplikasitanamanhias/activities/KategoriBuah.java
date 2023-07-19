@@ -18,7 +18,6 @@ import android.widget.Toast;
 import com.kelompok1.aplikasitanamanhias.adapter.BuahAdapter;
 import com.kelompok1.aplikasitanamanhias.adapter.BuahAdapter;
 import com.kelompok1.tanamanhias.R;
-import com.kelompok1.aplikasitanamanhias.adapter.MainAdapter;
 import com.kelompok1.aplikasitanamanhias.model.ModelMain;
 
 import org.json.JSONArray;
