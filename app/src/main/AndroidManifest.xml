@@ -45,9 +45,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kelompok1.aplikasitanamanhias.activities.MainActivity"
-            android:exported="true" />
-        <activity
             android:name="com.kelompok1.aplikasitanamanhias.activities.DetailActivity"
             android:exported="true" />
     </application>
